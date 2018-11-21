@@ -1,5 +1,5 @@
 @import "bootstrap";
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 .clear {
   clear: both;
 }
@@ -39,6 +39,8 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'rubikitalic';
+  font-weight: bold;
 }
 
 header {
@@ -47,4 +49,12 @@ header {
 
 hr {
   clear:both;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+}  
+
+h2 {
+  font-family: 'rubikitalic';
 }
